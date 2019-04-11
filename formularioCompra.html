@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Proyecto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--content es para los dispositivos moviles-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+        
+
+</head>
+
+<body id="paginaPrincipal" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <header id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                        <span class="fa fa-bars"></span>
+                    </button>
+
+                    <img class="img-responsive" src="img/logo.png" width="220" height="100">
+                </div>
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a id="menu" href=index.html><i class="fas fa-pizza-slice"></i>Regresar a la compra
+                            </a></li>
+                        <li><a id="contador" href="#"></a></li>
+
+
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <div class="container-fluid text-center">
+        <div>
+            <div class="col-sm-11">
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid text-center">
+        <div >
+            <div class="col-sm-4" id="datos">
+             <script>cargar();</script>
+            </div>
+            <div class="col-sm-4">
+                <input class="form-control" type="text" name="provinvia" id="provinvia" placeholder="Provinvia" required/>
+                <input class="form-control" type="text" name="canton" id="canton" placeholder="Canton" required/>
+                <input class="form-control" type="text" name="canton" id="canton" placeholder="Canton" required/>
+                <input class="form-control" type="text" name="distrito" id="distrito" placeholder="Distrito" required/>
+                <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Otra senas" rows="3" ></textarea>
+                <button class="btn btn-success" type="submit" onclick="enviar()">Enviar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
