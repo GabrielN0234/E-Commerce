@@ -262,7 +262,8 @@ div#promocion1, #promocion2, #promocion3  {
 @media (max-width: 773px) {
     div#promocion1, #promocion2, #promocion3  {
         z-index: 10000000; 
-        width: 80%; 
+        width: 80%;
+    }    
 }
 .col-sm-11{
     height: 10em; 
@@ -297,5 +298,5 @@ div#promocion1, #promocion2, #promocion3  {
     top: 0;
     left: 0;
     width:80%;
-    height:10vmax;
+    height: 10vmax;
 }

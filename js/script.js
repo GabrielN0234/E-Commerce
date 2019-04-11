@@ -59,7 +59,7 @@ function agregar(nombre, precio, restaurante) {
 function cargar() {
 
     var nombres = window.onload = sessionStorage.getItem("Nombres");
-    var preczios = window.onload = sessionStorage.getItem("Precios");
+    var precios = window.onload = sessionStorage.getItem("Precios");
     var restaurantes = window.onload = sessionStorage.getItem("Restaurantes");
 
     var cadenaNombre = "";
@@ -105,7 +105,9 @@ function enviar() {
     location.href = "index.html";
 }
 
-
+function refresh(){
+    location.href = "index.html";
+}
 
 var map;
 

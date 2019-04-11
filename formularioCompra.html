@@ -31,12 +31,13 @@
                         <span class="fa fa-bars"></span>
                     </button>
 
-                    <img class="img-responsive" src="img/logo.png" width="220" height="100">
+                    <a><img class="img-responsive" src="img/logo.png" width="220" height="100" onclick="refresh()"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavBar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a id="menu" href=index.html><i class="fas fa-pizza-slice"></i>Regresar a la compra
+                        <li><a id="menu" href=index.html><i class="fas fa-pizza-slice"></i>Regresar a la tienda
                             </a></li>
+
                         <li><a id="contador" href="#"></a></li>
 
 
@@ -65,7 +66,7 @@
                 <input class="form-control" type="text" name="canton" id="canton" placeholder="Canton" required/>
                 <input class="form-control" type="text" name="canton" id="canton" placeholder="Canton" required/>
                 <input class="form-control" type="text" name="distrito" id="distrito" placeholder="Distrito" required/>
-                <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Otra senas" rows="3" ></textarea>
+                <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Otra senas" rows="5" ></textarea>
                 <button class="btn btn-success" type="submit" onclick="enviar()">Enviar</button>
             </div>
         </div>
