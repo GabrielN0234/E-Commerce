@@ -21,6 +21,7 @@ function menu(n) {//
         initMap1(9.866600, -83.943395, "Taco bell");
         document.getElementById("menuMc").innerHTML = '</br><div id="tc1" class="thumbnal"><img class="img-responsive" src="img/Tcmenu1.jpg" width="100%" height="100%" onclick="agregar(\'Xtra big burrito\', 1950, \'Taco bell\')"></div></br><div id="tc2" class="thumbnal"><img class="img-responsive" src="img/Tcmenu2.jpg" width="100%" height="100%" onclick="agregar(\'Dame esos 6\', 2500, \'Taco bell\')"></div></br><div id="tc3" class="thumbnal"><img class="img-responsive" src="img/Tcmenu3.jpg" width="100%" height="100%" onclick="agregar(\'Stacker\',2000, \'Taco bell\')"></div>';
     }
+
 }//mapa
 
 
