@@ -1,6 +1,7 @@
 var cantidad = 0;
 var nombres = [];
 var precios = [];
+var pchart = [5530,4550,2500,3500,2500];
 var restaurantes = [];
 function menu(n) {//    
 
@@ -134,7 +135,7 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
         {
           label: "Population (millions)",
           backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-          data: [5530,4550,2500,3500,2500]
+          data: [pchart[0],pchart[1],pchart[2],pchart[3],pchart[4]]
         }
       ]
     },
